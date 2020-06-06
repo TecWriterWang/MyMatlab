@@ -1,4 +1,4 @@
-% »ù±¾»æÍ¼²Ù×÷
+% åŸºæœ¬ç»˜å›¾æ“ä½œ
 x = -3:0.02:3;
 z = -3:0.02:3;
 y = x .^2;
@@ -9,28 +9,28 @@ axis square;
 plot(x, y, 'green',x, y1, 'red');
 hold on;
 plot(x, y2, 'yellow');
-grid on; % ÏÔÊ¾Í¼Ïñ±³¾°Íø¸ñ
-title('ÏÔÊ¾Í¼Æ¬±êÌâ');
+grid on; % æ˜¾ç¤ºå›¾åƒèƒŒæ™¯ç½‘æ ¼
+title('æ˜¾ç¤ºå›¾ç‰‡æ ‡é¢˜');
 xlabel('x');
 ylabel('y');
-drawnow; % Á¢¿ÌÔÚ»­Ò»´Î
+drawnow; % ç«‹åˆ»åœ¨ç”»ä¸€æ¬¡
 
-% ´´½¨×Ó´°¿Ú
-subplot(2,3,1); % ½«´°¿Ú·Ö¶à¸ö×Ó´°¿Ú£¬2ĞĞ2ÁĞ
+% åˆ›å»ºå­çª—å£
+subplot(2,3,1); % å°†çª—å£åˆ†å¤šä¸ªå­çª—å£ï¼Œ2è¡Œ2åˆ—
 plot(x,y);
 subplot(2,3,2);
 plot(x,y2);
-% 3DÍ¼ĞÎ plot3
+% 3Då›¾å½¢ plot3
 subplot(2,3,3);
 plot3(x,y2,z);
 subplot(2,3,4);
-% ÇúÃæ3DÍ¼ surface ËõĞ´surf
+% æ›²é¢3Då›¾ surface ç¼©å†™surf
 x = -5:0.1:5;
 y = -5:0.1:5;
-[X,Y]=meshgrid(x,y); % meshgridÉú³ÉÖ¸¶¨Çø¼äÄÚµÄ¶ÔÓ¦µã
+[X,Y]=meshgrid(x,y); % meshgridç”ŸæˆæŒ‡å®šåŒºé—´å†…çš„å¯¹åº”ç‚¹
 Z= X.^2+Y.^2;
 surf(X,Y,Z);
-% ¶¯Ì¬Í¼ 
+% åŠ¨æ€å›¾ 
 subplot(2,3,5);
 x = -2*pi:0.1:2*pi;
 y = sin(x); 
