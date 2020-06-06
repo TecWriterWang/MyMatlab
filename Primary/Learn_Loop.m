@@ -1,6 +1,6 @@
-% Ñ¡Ôñ½á¹¹
-a = input('ÇëÊäÈëaµÄÖµ ');
-b = input('ÇëÊäÈëbµÄÖµ ');
+% é€‰æ‹©ç»“æž„
+a = input('è¯·è¾“å…¥açš„å€¼ ');
+b = input('è¯·è¾“å…¥bçš„å€¼ ');
 if a>b
     disp('a > b');
 elseif a-b < 0
@@ -8,11 +8,11 @@ elseif a-b < 0
 else
     disp('a == b');     
 end
-% Ñ­»·½á¹¹-for
+% å¾ªçŽ¯ç»“æž„-for
 for i = 1:5
     disp(i);    
 end
-% Ñ­»·½á¹¹-while
+% å¾ªçŽ¯ç»“æž„-while
 while i
     fprintf('%g ',i);  
     if i > 5
